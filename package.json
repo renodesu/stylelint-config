@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/renodesu/stylelint-config/issues"
   },
-  "homepage": "https://github.com/renodesu/stylelint-config#readme"
+  "homepage": "https://github.com/renodesu/stylelint-config#readme",
+  "dependencies": {
+    "stylelint": "^14.13.0",
+    "stylelint-config-idiomatic-order": "^9.0.0",
+    "stylelint-config-prettier-scss": "^0.0.1",
+    "stylelint-config-standard-scss": "^5.0.0"
+  }
 }
