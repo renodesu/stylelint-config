@@ -1,5 +1,7 @@
-const fs = require('node:fs')
-
-const config = fs.readFileSync('./.stylelintrc.json')
-
-module.exports = JSON.parse(config.toString())
+module.exports = {
+  extends: [
+    'stylelint-config-standard-scss',
+    'stylelint-config-prettier-scss',
+    'stylelint-config-idiomatic-order',
+  ],
+}
