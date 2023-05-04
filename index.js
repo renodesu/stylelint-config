@@ -1,11 +1,7 @@
 module.exports = {
-  extends: [
-    'stylelint-config-standard-scss',
-    'stylelint-config-prettier-scss',
-    'stylelint-config-idiomatic-order',
-  ],
+  extends: ['stylelint-config-standard-scss', 'stylelint-config-clean-order'],
   rules: {
-    // Tailwind @rules
+    'declaration-property-value-no-unknown': true,
     'at-rule-no-unknown': null,
     'scss/at-rule-no-unknown': [
       true,

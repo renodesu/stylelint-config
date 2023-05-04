@@ -3,5 +3,13 @@
 body {
   width: 10px;
   height: 10px;
-  color: #f00;
+  color: #f10;
+}
+
+h1 {
+  font-weight: 100;
+}
+
+a {
+  top: 'asd';
 }
