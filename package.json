@@ -1,6 +1,6 @@
 {
   "name": "@renodesu/stylelint-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -17,8 +17,8 @@
   },
   "homepage": "https://github.com/renodesu/stylelint-config#readme",
   "dependencies": {
-    "stylelint": "^15.6.1",
-    "stylelint-config-clean-order": "^5.0.1",
-    "stylelint-config-standard-scss": "^9.0.0"
+    "stylelint": "^15.10.3",
+    "stylelint-config-clean-order": "^5.2.0",
+    "stylelint-config-standard-scss": "^10.0.0"
   }
 }

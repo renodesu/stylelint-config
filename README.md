@@ -6,7 +6,7 @@ Installation
 npm i -D git@github.com:renodesu/stylelint-config.git
 ```
 
-Add it to project .eslintrc.js:
+Add it to project `.stylelintrc.json`:
 
 ```js
 module.exports = {

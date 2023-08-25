@@ -1,8 +1,12 @@
 @tailwind base;
 
 body {
+  display: flex;
+
   width: 10px;
   height: 10px;
+  padding: 10px;
+
   color: #f10;
 }
 
@@ -11,5 +15,5 @@ h1 {
 }
 
 a {
-  top: 'asd';
+  top: "asd";
 }
