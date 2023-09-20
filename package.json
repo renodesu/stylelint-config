@@ -1,8 +1,11 @@
 {
   "name": "@renodesu/stylelint-config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
-  "main": "index.js",
+  "main": ".stylelintrc.js",
+  "files": [
+    ".stylelintrc.js"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,8 +20,10 @@
   },
   "homepage": "https://github.com/renodesu/stylelint-config#readme",
   "dependencies": {
-    "stylelint": "^15.10.3",
     "stylelint-config-clean-order": "^5.2.0",
-    "stylelint-config-standard-scss": "^10.0.0"
+    "stylelint-config-standard-scss": "^11.0.0"
+  },
+  "peerDependencies": {
+    "stylelint": "^15.10.3"
   }
 }

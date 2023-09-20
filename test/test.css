@@ -1,15 +1,9 @@
 @tailwind base;
 
 body {
+  display: block;
   width: 10px;
   height: 10px;
+  font-size: 12px;
   color: #f10;
-}
-
-h1 {
-  font-weight: 100;
-}
-
-a {
-  top: 'asd';
 }
