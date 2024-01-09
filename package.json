@@ -1,8 +1,9 @@
 {
   "name": "@renodesu/stylelint-config",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": ".stylelintrc.js",
+  "type": "module",
   "files": [
     ".stylelintrc.js"
   ],
@@ -18,12 +19,12 @@
   "bugs": {
     "url": "https://github.com/renodesu/stylelint-config/issues"
   },
-  "homepage": "https://github.com/renodesu/stylelint-config#readme",
+  "homepage": "https://github.com/renodesu/stylelint-config#README",
   "dependencies": {
-    "stylelint-config-clean-order": "^5.2.0",
-    "stylelint-config-standard-scss": "^11.1.0"
+    "stylelint-config-clean-order": "^5.3.0",
+    "stylelint-config-standard-scss": "^13.0.0"
   },
   "peerDependencies": {
-    "stylelint": "^15.11.0"
+    "stylelint": "^16.1.0"
   }
 }

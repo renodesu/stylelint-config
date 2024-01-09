@@ -6,10 +6,10 @@ Installation
 npm i -D git@github.com:renodesu/stylelint-config.git
 ```
 
-Add it to project `.stylelintrc.json`:
+Add it to project `.stylelintrc.js`:
 
 ```js
-module.exports = {
+export default {
   extends: '@renodesu/stylelint-config',
 }
 ```
